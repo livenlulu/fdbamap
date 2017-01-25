@@ -64,6 +64,10 @@
     min-width: 142px;
   }
 
+  #bootstrap-overrides .leaflet-popup-close-button {
+    z-index: 1;
+  }
+
   #bootstrap-overrides #sm {
     width: 12.5%;
     height: 470px;
