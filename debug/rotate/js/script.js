@@ -30,25 +30,25 @@ var parking = L.icon({
 
 var atrain = L.icon({
   iconUrl: 'img/a.png',
-  iconSize: [16,16],
+  iconSize: [18,18],
   iconAnchor: [15,5]
 });
 
 var ctrain = L.icon({
   iconUrl: 'img/c.png',
-  iconSize: [16,16],
+  iconSize: [18,18],
   iconAnchor: [15,5]
 });
 
 var btrain = L.icon({
   iconUrl: 'img/b.png',
-  iconSize: [16,16],
+  iconSize: [18,18],
   iconAnchor: [15,5]
 });
 
 var dtrain = L.icon({
   iconUrl: 'img/d.png',
-  iconSize: [16,16],
+  iconSize: [18,18],
   iconAnchor: [15,5]
 });
 
@@ -90,7 +90,7 @@ var bt = [
   },
   {
     name: "116th Street B Train",
-    coord: [40.804469,-73.955409]
+    coord: [40.804471,-73.955380]
   },
   {
     name: "110th Street B Train",
@@ -105,7 +105,7 @@ var ct = [
   },
   {
     name: "116th Street C Train",
-    coord: [40.804424,-73.955297]
+    coord: [40.804400,-73.955207]
   },
   {
     name: "110th Street C Train",

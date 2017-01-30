@@ -157,6 +157,14 @@
     margin-right: 15px;
   }
 
+  #bootstrap-overrides .leaflet-popup-content h4 {
+    font-family: Roboto;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 11px;
+  }
+
   #bootstrap-overrides li { 
     cursor: pointer; 
     cursor: hand; 
