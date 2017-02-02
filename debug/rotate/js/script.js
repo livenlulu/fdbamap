@@ -155,23 +155,23 @@ function style(feature) {
 
 function mouseoverFunction(e) {
 
-this.openPopup();
-}
+// this.openPopup();
+// }
 
 
   // var layer = e.target;
 
-  //   layer.setStyle({
-  //       weight: 3,
-  //       opacity: 1,
-  //       color: 'white',
-  //       dashArray: '',
-  //       fillOpacity: 1
-  //   });
-//     if (!L.Browser.ie && !L.Browser.opera) {
-//         layer.bringToFront();
-//     }
-// }
+    layer.setStyle({
+        weight: 3,
+        opacity: 1,
+        color: 'white',
+        dashArray: '',
+        fillOpacity: 1
+    });
+    if (!L.Browser.ie && !L.Browser.opera) {
+        layer.bringToFront();
+    }
+}
 
 
   // var pop = feature.properties.Organization;
