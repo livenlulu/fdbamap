@@ -159,7 +159,7 @@ function mouseoverFunction(e) {
 // }
 
 
-  // var layer = e.target;
+  var layer = e.target;
 
     layer.setStyle({
         weight: 3,
