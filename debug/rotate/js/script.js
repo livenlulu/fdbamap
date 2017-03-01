@@ -12,6 +12,9 @@ var map = L.map('map', {
   map.addLayer(layer);
   map.setBearing(331);
 
+  map.options.maxZoom = 18;
+  map.options.minZoom = 16;
+
 var bizmarker = {
   radius: 8,
   fillColor: "#bbb",
