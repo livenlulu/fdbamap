@@ -222,21 +222,21 @@
     font-size: 20px;
     font-family: Montserrat;
     font-weight: 900;
-    margin-top: 7px;
+    margin-top: 4px;
     margin-bottom: 3px;
     letter-spacing: 1.5px;
     margin-left: 130px;
-    color: #444;
+    color: #000;
   }
 
     #bootstrap-overrides h3 {
     font-size: 13px;
-    font-family: Raleway;
+    font-family: Dosis;
     text-align:left;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left:130px; 
-    color: #6d6d6d;
+    color: #444;
     top:10px;
   }
 
@@ -277,7 +277,7 @@
     min-height: 0px;
     height: 62px;
     display: inline;
-    top: 6px;
+    top: 17px;
     left: 18px;
     position: absolute;
     border: 1px solid #ddd;
@@ -596,7 +596,7 @@ overflow:auto;
 }
 
 /*restaurants / bars*/
-/*#bootstrap-overrides .btn-danger {
+#bootstrap-overrides .btn-danger {
   color: #fff;
   background-color: #C95260;
   border-color: #C0392B;
@@ -611,7 +611,7 @@ overflow:auto;
   background-color: #CB4335;
   border-color: #D53E4F;
 }
-*/
+
 #bootstrap-overrides #resta {
   border-color: #c9302c;
   border-radius: 0px;
@@ -644,13 +644,13 @@ overflow:auto;
 }
 
 /*services*/
-/*#bootstrap-overrides .btn-warning {
+#bootstrap-overrides .btn-warning {
   color: #fff;
-  background-color: #F4D03F;
-  border-color: #D4AC0D;
+  background-color: #ec971f;
+ /* border-color: #D4AC0D;*/
 }
 
-#bootstrap-overrides .btn-warning:hover,
+/*#bootstrap-overrides .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
 .btn-warning.active,
@@ -851,13 +851,23 @@ font-size: 15px;
   overflow: hidden;*/
 }
 
-#headin3 {
+#headin2 {
   margin-left: 12%;
+  text-transform: uppercase;
+  margin-top:10px; 
+  margin-bottom: 2px; 
+
+}
+
+#headin3 {
+  margin-right: 12%;
+  text-transform: uppercase;
+  padding-left: 90px;
 }
 
 /*POPUP COLOR*/
 #bootstrap-overrides #ona {
-  background-color: #c9302c;
+  background-color: #C95260;
   opacity: .9;
 }
 
@@ -904,16 +914,17 @@ font-size: 15px;
 }
 
 #bootstrap-overrides h2 {
-  font-size: 15px;
+  font-size: 14px;
   font-family: Montserrat;
   font-weight: 800;
   margin-left: 20px;
+  margin-top: 3px;
 }
 
 
 #bootstrap-overrides h3 {
   font-size: 11px;
-  font-family: Raleway;
+
   margin-left: 20px;
 }
 
@@ -937,12 +948,12 @@ font-size: 15px;
 }
 
 #bootstrap-overrides #map {
-  height: 481px;
+  height: 491px;
 
 }
 
 #bootstrap-overrides .dropdown.open .dropdown-menu {
-    max-height: 177px;
+    max-height: 187px;
   
 }
 
@@ -955,6 +966,8 @@ font-size: 15px;
 
 #bootstrap-overrides h5 {
  font-size: 10px;
+ padding-top: 6px;
+ margin-bottom: 2px;
 }
 
 #bootstrap-overrides h6 {
@@ -963,6 +976,8 @@ font-size: 15px;
 
 #bootstrap-overrides p {
  font-size: 9px;
+ padding-bottom: 5px;
 }
+#headin3 { padding-left: 35px;
 
 }
