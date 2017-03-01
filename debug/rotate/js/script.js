@@ -140,7 +140,7 @@ function getColor(d) {
            d > 4  ? '#3288bd' : //5 beauty & health
            d > 3  ? '#66c2a5' : //4 retail
            d > 2  ? '#f4d03f' : //3 services
-           d > 1  ? '#f0ad4e' : //2 other food
+           d > 1  ? '#ec971f' : //2 other food
            d > 0  ? '#C95260' : //1 restaurants
                      '#FFEDA0';
   }
