@@ -968,6 +968,7 @@ font-size: 15px;
  font-size: 10px;
  padding-top: 6px;
  margin-bottom: 2px;
+ font-weight: 400;
 }
 
 #bootstrap-overrides h6 {
