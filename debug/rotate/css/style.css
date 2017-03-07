@@ -823,6 +823,11 @@ overflow:auto;
 
 #bootstrap-overrides #ot {
 font-size: 15px;
+  vertical-align: -4px;
+}
+
+#bootstrap-overrides #oe {
+font-size: 15px;
   vertical-align: -2px;
 }
 
